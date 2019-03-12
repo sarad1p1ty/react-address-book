@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import {TextField, Button, FormControl} from '@material-ui/core';
 
 class Form extends Component {
+    handleChange () {
+
+    };
+    initialState (){};
     render() {
         return (
             <form autocomplete="off" onSubmit={e=>e.preventDefault}>

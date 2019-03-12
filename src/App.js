@@ -10,15 +10,15 @@ const styles = theme => ({
 
 class App extends Component {
     render() {
-        return <div className="App">
+        return (<div className="App">
             <Grid container="true" justify="center">
-              <Grid lg="9" md="9" container="true">
-                <Paper>
-                  <Form />
-                </Paper>
-              </Grid>
+                <Grid lg="9" md="9" container="true">
+                    <Paper>
+                    <Form />
+                    </Paper>
+                </Grid>
             </Grid>
-          </div>;
+        </div>);
     }
 }
 
